@@ -1,3 +1,3 @@
-def my_each # put argument(s) here
-  # code here
+def reverse_each_word(sentence)
+  sentence.split.collect(&:reverse).join(' ')
 end
